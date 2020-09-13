@@ -1,7 +1,7 @@
 {
   "name": "apirest",
   "version": "1.0.0",
-  "description": "Este es una REST API creada con Nodejs, JWT, y mongoDB (ORM mongoose)",
+  "description": "Este es una REST API creada con Nodejs, JWT, y mongoDB (mongoose)",
   "main": "index.js",
   "scripts": {
     "start": "node build/index.js",
