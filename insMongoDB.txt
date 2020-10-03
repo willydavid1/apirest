@@ -1,0 +1,15 @@
+$ sudo apt update
+$ sudo apt install -y mongodb
+
+$ sudo apt install -y mongodb
+
+$ mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+
+$ sudo systemctl status mongodb
+$ sudo systemctl stop mongodb
+$ sudo systemctl start mongodb
+$ sudo systemctl restart mongodb
+
+// activado automatico
+$ sudo systemctl disable mongodb
+$ sudo systemctl enable mongodb
