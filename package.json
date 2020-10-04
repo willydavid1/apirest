@@ -1,7 +1,7 @@
 {
   "name": "apirest",
   "version": "1.0.0",
-  "description": "Este es una REST API creada con Nodejs, JWT, y mongoDB (mongoose)",
+  "description": "Este es una REST API (Autorización y Autenticación) creada con Nodejs, JWT, y mongoDB (mongoose)",
   "main": "index.js",
   "scripts": {
     "start": "node build/index.js",
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Willy Da Conceicao",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
